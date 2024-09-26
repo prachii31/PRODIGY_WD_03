@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #dcbac6;
+}
+
+section {
+    text-align: center;
+}
+
+.cell {
+    font-family: "Playwrite Deutschland Grundschrift", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 1px 1px 1px 1px #e5e2e4;
+    border: 2px solid #dbd7d2;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 50px;
+}
+
+.game--title {
+    font-size: 40px;
+    color: #e04579;
+    margin: 10px auto;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #222122;
+    color: #dec45a;
+}
+
+.game--status {
+    
+    font-size: 35px;
+    color: #cc5170;
+    margin: 20px auto;
+}
+
+.game--restart {
+    background-color: #e1cb7b;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #3a0236;
+    box-shadow: 2px 2px 2px 2px #d39727;
+    border: 2px solid #c1ae69;
+}
+
+.game--restart:hover{
+    background-color: #ddd1dd;
+}
